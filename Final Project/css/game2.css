@@ -1,0 +1,51 @@
+body {
+    background-color: tan;
+}
+
+section {
+    padding: 10px;
+}
+
+#buttons {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+button {
+    width: 160px;
+    height: 80px;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
+
+#buttons:hover {
+    background-color: white;
+    border: 10px solid purple;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: tan;
+        display: grid;
+        grid-template-areas:
+        "pages pages"
+        "summary1 summary1"
+        "summary2 summary2"
+        "summary3 summary3"
+        "footer footer"
+    }
+    button {
+        width: 35%;
+        height: 40%;
+        margin: 5px;
+    }
+    section {
+        width: 400px;
+    }
+    img {
+        width: 400px;
+    }
+}

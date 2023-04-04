@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Final Project Third Game </title>
+        <link href = "css/game3.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        <section id = "buttons">
+            <button class="navButtons" onclick = "window.location.href = 'finalProject.html';" value="Home Page"> Home </button>
+            <button class="navButtons" onclick = "window.location.href = 'game1.html';" value="First Game"> Tabletop Game </button>
+            <button class="navButtons" onclick = "window.location.href = 'game2.html';" value="Second Game"> Clones vs Droids </button>
+            <button class="navButtons" onclick = "window.location.href = 'game3.html';" value="Third Game"> Garen vs Darius </button>
+            <h1> Garen VS Darius! </h1>
+            <p> Click the buttons to move Garen and Darius, while making them scream at eachother with frightful might! </p>
+        </section>
+        <article>
+            <section class="gameSect">
+                <div id ="container">
+                    <img alt="garen" src="media/garen.png" id ="knight" />
+                </div>
+            </section>
+            <section class="gameSect" style="background-color:tan;opacity:.8;padding-top:5px;padding-bottom:10px;height:100px;">
+                <p style="text-align:center;color:white;">
+                    <button class="gameButtons" id="down">Move Garen down</button>
+                    <button class="gameButtons" id="up">Move Garen up </button>
+                    <button class="gameButtons" id="right">Move Garen right</button>
+                    <button class="gameButtons" id="left">Move Garen left</button>
+                    <button class="gameButtons" id="yell">FOR DEMACIA!</button>
+                    <button class="gameButtons" id="stop">Make Garen stop</button>
+                </p>
+            </section>
+        </article>
+        <audio id = "snd" src = "media/demacia.mp3" preload="auto"></audio>
+        <script src="js/game3.js"></script>
+    </body>
+    <!-- The intended audience is targeted towards people who enjoy more technical games. Nothing flashy and simple things that me and others like me would find interesting. -->
+    <!-- I wanted to keep the layout of my page simple which was very messy at first, but I added some hover effects that make it more pleasing. -->
+    <!-- Choosing colors took me a while because I wanted just a white background at first. I feel that the tan background fits better and allows me to use the colors I intended without making the most hideous thing imaginable. It also keeps the very simple and basic feel that I was going for. -->
+</html>

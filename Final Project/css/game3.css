@@ -1,0 +1,81 @@
+body {
+    background-image:url('../media/summonerRiftMap.png');
+    background-size:950 auto;
+    background-repeat: no-repeat;
+    background-color:black;
+}
+
+section {
+    padding: 10px;
+}
+
+#buttons {
+    background-color: tan;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navButtons {
+    width: 160px;
+    height: 80px;
+}
+
+.navButtons:hover {
+    background-color: purple;
+    color: white;
+}
+
+#buttons:hover {
+    background-color: white;
+    border: 10px solid purple;
+}
+#container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+#knight {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: none;
+}
+input{
+    text-align:center;
+}
+.gameSect{
+    left: 0;
+    bottom: 0;
+    width:900px;
+    height:600px;
+}
+.gameButtons{
+    width:200px;
+    padding:10px;
+    color:white;
+    background-color:darkblue;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: tan;
+        display: grid;
+        grid-template-areas:
+        "pages pages"
+        "summary1 summary1"
+        "summary2 summary2"
+        "summary3 summary3"
+        "footer footer"
+    }
+    button {
+        width: 35%;
+        height: 40%;
+        margin: 5px;
+    }
+    section {
+        width: 400px;
+    }
+    img {
+        width: 400px;
+    }
+}
